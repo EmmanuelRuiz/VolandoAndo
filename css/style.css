@@ -10,7 +10,7 @@ CSS INDEX
 =========
 
 1. Base CSS
-    1.1 Layout 
+    1.1 Layout
     1.2 Common classes
     1.3 Colors
     1.4 Backgrounds
@@ -56,7 +56,7 @@ CSS INDEX
 
 body {
     color: #666666;
-    font-family: "Raleway", sans-serif !important;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
     line-height: 1.69em;
     margin: 0;
@@ -70,7 +70,7 @@ iframe {
     border: none !important;
 }
 
-/* 1.1 Layout 
+/* 1.1 Layout
     --------------------------------*/
 .container {
     padding-left: 0;
@@ -97,7 +97,7 @@ iframe {
     background-color: transparent;
 }
 .wl-overlay {
-    background-color: rgba(240, 240, 240, 0.85);
+    background-color: rgba(255, 255, 255, 0.5);
     height: 100%;
 }
 .wl-overlay-black {
@@ -408,7 +408,7 @@ iframe {
 /* 1.4 Backgrounds
     -------------------------------*/
 .wl-home-bg1 {
-    background: transparent url("images/bg/home.jpg") no-repeat fixed 0 0;
+    background: transparent url("../images/bg/home.jpg") no-repeat fixed 0 0;
 }
 .wl-home-bg2 {
     background: transparent url("images/bg/pattern.jpg") no-repeat fixed 0 0;
@@ -982,7 +982,6 @@ nav.wl-main-nav ul li .mega-menu-2 ul li a:hover {
 }
 .wl-home-heading h1 {
     margin: 0;
-    text-transform: capitalize;
 }
 .wl-category-title h2 {
     margin-top: 14px;
@@ -1017,7 +1016,7 @@ div.fs1 {
     opacity: 0.5 !important;
 }
 .wl-link-to span {
-    color: #ababab;
+    color: #333;
     font-size: 30px;
     position: absolute;
 }
