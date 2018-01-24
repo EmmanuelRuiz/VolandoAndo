@@ -5040,11 +5040,11 @@ ul.comments .comment-block,
 }
 
 html.photography-demo-2.sticky-header-enabled.sticky-header-active #header .header-body {
-	background: #bfbfbf;
+	background-color: rgba(0,0,0,0.5);
 }
 
 html.photography-demo-2 #header.solid-header .header-body {
-	background: #242e39;
+	background-color: rgba(0,0,0,0.3);
 }
 
 html.photography-demo-2 .list.list-icons.list-icons-style-2 li > .fa:first-child,
