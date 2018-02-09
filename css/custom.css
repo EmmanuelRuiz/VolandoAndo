@@ -1,1 +1,13 @@
 /* Add here all your CSS customizations */
+
+
+#team-section .owl-stage{
+  display: block;
+  margin: auto;
+}
+
+#team-section .thumb-info{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+}
